@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: url(/chatApp_bg.avif);
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+ /* Custom scrollbar width */
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-track{
+  background: #000;
+}
+::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 10px;
+}
